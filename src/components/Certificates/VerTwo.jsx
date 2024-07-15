@@ -1,5 +1,5 @@
 import logo from "../../assets/logo.svg";
-import singnature from "../../assets/singnature.svg";
+import singnature from "../../assets/newsignature.svg";
 import num50 from "../../assets/num50.svg";
 import num70 from "../../assets/num70.svg";
 import num80 from "../../assets/num80.svg";
@@ -242,7 +242,7 @@ const VerTwo = ({ setRef }) => {
                 paddingBottom: "2px",
               }}
             >
-              <img className="singnature" src={singnature} alt="" />
+              <img className="singnature text-center" src={singnature} alt="" style={{width : '70px', height : '50px' , marginLeft : '20px'}}/>
               <div className="singnature-line"></div> 
             </div>
           </div>
