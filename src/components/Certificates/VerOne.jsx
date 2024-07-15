@@ -199,7 +199,7 @@ const VerOne = ({ setRef }) => {
                 alignItems: "flex-end",
                 paddingBottom: "3px",
               }}>
-              <img className="singnature" src={singnature} alt=""/>
+              <img className="singnature" src={singnature} alt="" style={{width : '70px', height : '50px' , marginLeft : '20px'}}/>
               <div className="singnature-line"></div>
             </div>
           </div>
