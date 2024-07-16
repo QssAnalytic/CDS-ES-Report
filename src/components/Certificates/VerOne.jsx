@@ -199,7 +199,12 @@ const VerOne = ({ setRef }) => {
                 alignItems: "flex-end",
                 paddingBottom: "3px",
               }}>
-              <img className="singnature" src={singnature} alt="" style={{width : '70px', height : '50px' , marginLeft : '20px'}}/>
+              <img
+                className="singnature"
+                src={singnature}
+                alt=""
+                style={{ width: "70px", height: "50px", marginLeft: "20px" }}
+              />
               <div className="singnature-line"></div>
             </div>
           </div>
@@ -291,7 +296,7 @@ const VerOne = ({ setRef }) => {
             <div className="summary-main">
               <Summary />
 
-              <div className="svg-div"> 
+              <div className="svg-div">
                 <div>
                   <span>{dashArray}</span>
                 </div>
@@ -325,7 +330,7 @@ const VerOne = ({ setRef }) => {
 
                     {progressBar(value)}
 
-                    <span>{Number(value).toFixed(2)}</span>
+                    <p>{Number(value).toFixed(2)}</p>
                   </div>
                 ))}
               </div>
@@ -352,7 +357,7 @@ const VerOne = ({ setRef }) => {
 
                     {progressBar(value)}
 
-                    <span>{Number(value).toFixed(2)}</span>
+                    <p>{Number(value).toFixed(2)}</p>
                   </div>
                 ))}
               </div>
