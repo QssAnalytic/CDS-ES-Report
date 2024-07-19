@@ -520,7 +520,7 @@ input[type="number"] {
 .progress p {
   background: transparent;
   position: relative;
-  width: 14px;
+  width: 13px;
   height: 4px;
   background: 50% #262262;
   border-radius: 2px;
